@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/historia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="4"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="end"
+            android:padding="5dp"
+            android:text="@string/_0"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/wyswietlacz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="4"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="end"
+            android:padding="5dp"
+            android:text="@string/_0"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_c"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_light"
+            android:text="@string/c"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_mc"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_light"
+            android:text="@string/mc"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_mr"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_light"
+            android:text="@string/mr"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_mplus"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_light"
+            android:text="@string/m"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_del"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_light"
+            android:text="@string/del"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_znak"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_light"
+            android:text="@string/znak"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_procent"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_light"
+            android:text="@string/procent"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_div"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_light"
+            android:text="@string/div"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_7"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_dark"
+            android:text="@string/_7"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_8"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_dark"
+            android:text="@string/_8"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_9"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_dark"
+            android:elevation="0dp"
+            android:text="@string/_9"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_iloczyn"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_light"
+            android:text="@string/iloczyn"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_4"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_dark"
+            android:text="@string/_4"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_5"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_dark"
+            android:text="@string/_5"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_6"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_dark"
+            android:text="@string/_6"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_minus"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_light"
+            android:text="@string/minus"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_1"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_dark"
+            android:text="@string/_1"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_2"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_dark"
+            android:text="@string/_2"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_3"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_dark"
+            android:text="@string/_3"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_plus"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_light"
+            android:text="@string/plus"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_0"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_span="2"
+            android:background="@drawable/borderless_ripple_dark"
+            android:text="@string/_0"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_przecinek"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_dark"
+            android:text="@string/kropka"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_eq"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/borderless_ripple_blue"
+            android:text="@string/eq"
+            android:textColor="@android:color/white" />
+    </TableRow>
+</TableLayout>
